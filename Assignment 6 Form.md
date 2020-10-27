@@ -1,0 +1,139 @@
+# web-temple<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monthly Newsletter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1>Join our Monthly Newsletter</h1>
+    <br />
+      <ul class="news">
+          <li> Latest News about Job Market in Japan</li>
+          <br/>
+          <li> Active Hiring Companies in the Market</li>
+        <br />
+          <li> Top Demanding Skills/Tools in Design field in the past 30 days</li>
+        <br />
+          <li> Resume Writing Tips And Latest Tools </li>
+      </ul>
+      <div>
+<img class="resume" src="file:///Users/dangminhhuyen/Downloads/markus-winkler-7iSEHWsxPLw-unsplash.jpg" width="280px">
+    <div class="wrapper">
+      <div class="tittle">Registration Form</div>
+      <div class="form">
+        <div class="input_field">
+          <label>First Name</label>
+          <input type="text" class="input" />
+        </div>
+        <div class="input_field">
+          <label>Last Name</label>
+          <input type="text" class="input" />
+        </div>
+        <div class="input_field">
+          <label>Password</label>
+          <input type="password" class="input" />
+        </div>
+        <div class="input_field">
+          <label>Confirm Password</label>
+          <input type="password" class="input" />
+        </div>
+        <div class="input_field">
+          <label>Gender</label>
+          <div class="custom_select">
+            <select>
+              <option value="">Select</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+        </div>
+          <div class="input_field">
+            <label>Email Address</label>
+            <input type="text" class="input" />
+          </div>
+          <div class="input_field">
+            <label>Phone number</label>
+            <input type="phone" class="input" />
+          </div>
+          <div class="input_field terms">
+            <label class="check">
+              <input type="checkbox" />
+              <span class="checkmark"> </span>
+            </label>
+            <p>I consent to terms and conditions</p>
+          </div>
+          <div class="input_field">
+            <input type="submit" value="Register" class="btn"/>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+  </body>
+</html>
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+h1 {
+  color: #fff7df;
+  text-align: center;
+}
+h2 {
+  color: linen;
+  text-align: left;
+}
+.resume {
+  display: block;
+  position: relative;
+  margin: auto;
+}
+.news {
+  text-align: center;
+  color: rgb(59, 55, 55);
+}
+body {
+  background: #ffd2d2;
+  padding: 0 10px;
+}
+.wrapper {
+  max-width: 500px;
+  width: 100%;
+  background: #ffffff;
+  margin: 20px auto;
+  padding: 30px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+}
+.wrapper .tittle {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #ffd2d2;
+  text-transform: uppercase;
+  text-align: center;
+}
+.wrapper .form {
+  width: 100%;
+}
+.wrapper .form .input_field {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.wrapper .form .input_field label {
+  width: 200px;
+  color: rgb(40, 83, 81);
+  margin-right: 10px;
+  font-size: 14px;
+}
+.wrapper .form .input_field input {
+  width: 100%;
+  outline: none;
+  border: 1px solid #ffd2d2;
+}
